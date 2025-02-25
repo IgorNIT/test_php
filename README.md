@@ -1,7 +1,6 @@
 # PHP 8.3 Development Environment
 
-A lightweight Docker-based PHP 8.3 development environment.
-
+PHP Test Task
 ## Features
 
 - PHP 8.3
@@ -12,7 +11,7 @@ A lightweight Docker-based PHP 8.3 development environment.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/php83-dev-env.git
+git clone https://github.com/IgorNIT/test_php.git
 ``` 
 
 2. Build the Docker image
@@ -38,7 +37,7 @@ docker-compose exec php bash
 2. Run application
 
 ```bash
-php app.php
+php app.php input.txt
 ```
 
 ### TESTING
