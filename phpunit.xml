@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <env name="APP_ENV" value="test"/>
+        <env name="DEFAULT_CURRENCY_CODE" value="EUR"/>
+        <env name="LOOKUP_BINLIST_URL" value="https://lookup.binlist.net"/>
+        <env name="EXCHANGE_RATE_IO_BASE_URL" value="https://api.fastforex.io"/>
+        <env name="EXCHANGE_RATE_IO_API_KEY" value="xxx-xxxx-xxxx-xxxx-xxxx"/>
+    </php>
+</phpunit>

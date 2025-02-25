@@ -1,0 +1,26 @@
+# /.*
+docs
+docker/Dockerfile
+docker/yml
+*docker*.yml
+*gitlab-ci*yml
+**/*.dockerignore
+README.md
+package.json
+phpunit.xml
+storage
+tests
+yarn.lock
+!.babelrc
+Makefile
+public/.htaccess
+
+# Git
+**/.gitignore
+.git
+
+# etc.
+**/*node_modules
+**/.DS_Store
+/node_modules
+**/*.env*
